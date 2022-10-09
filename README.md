@@ -21,7 +21,7 @@ This solution uses an editor script to create window where you can select two sc
 
 ### Setting up
 Please follow these instructions to get this extension working:
-1. Clone this repository and copy its contents to your project (or download the .unitypackage file from Releases).
+1. Clone this repository and copy its contents to your project (or download the .unitypackage file from [Releases](https://github.com/ronijaakkola/unity-scene-loader/releases)).
 2. Create a scene and gather all of your managers, controllers etc. objects into that.
 3. Create an empty game object to that scene and add `DevSceneLoader` script to the object. Drag `TargetSceneInfo` scriptable object to the "Scene info" variable of the script.
 4. Make sure the editor script `SceneLoaderWindow` has the same scriptable object reference set to its variable "Target Scene Info".
